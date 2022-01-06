@@ -90,6 +90,13 @@ section{
 /* ------ Mission Section ------ */
 
 
+.mission-section{
+    background: url("../images/shapes/dots.png");
+    background-repeat: no-repeat;
+    background-size: 9%;
+    background-position: bottom right;
+}
+
 .mission{
     display: flex;
     justify-content: center;
@@ -138,10 +145,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../images/shapes/shape-1.png");
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: 50px center;
+    background: url("../images/shapes/shape-1.png") no-repeat 50px center / 15%, 
+    url("../images/shapes/dots.png") no-repeat bottom left / 9%;
+
 }
 
 .develop-image{
