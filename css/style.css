@@ -49,6 +49,7 @@ section{
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
+    color: #13103A;
 }
 
 /* ------ Home Section ------ */
@@ -75,6 +76,7 @@ section{
     font-family: 'Yeseva One', cursive;
     font-weight: 400;
     border-left: 3px solid #FF5959;
+    color: #333333;
 }
 
 
@@ -162,6 +164,7 @@ section{
 .develop-detail h2{
     font-size: 36px;
     font-weight: 700;
+    color: #333333;
 }
 
 .develop-detail p{
@@ -187,6 +190,7 @@ section{
 .community-detail h2{
     font-size: 36px;
     font-weight: 700;
+    color: #333333;
 }
 
 .community-detail p{
@@ -228,6 +232,8 @@ section{
 
 .skill-item p{
     margin-bottom: 5px;
+    font-weight: 500;
+    color: #000;
 }
 
 .skill-item li{
