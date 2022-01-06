@@ -1,0 +1,296 @@
+/* ------ Google Fonts ------ */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
+/* ------ Default css ------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 18px;
+    color:#3E3E3E;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0px;
+}
+
+/* ------ Button ------ */
+.btn{
+    background-color: #FF5959;
+    color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* ------ Highlight Color ------ */
+
+.highlight-color{
+    color: #FFAD5A;
+}
+
+/* ------ Section Title ------ */
+
+.section-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* ------ Home Section ------ */
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-child{
+    width: 40%;
+    margin-right: 120px;
+}
+
+.home-image{
+    width: 30%;
+}
+
+
+.home-child h1{
+    padding-left: 8px;
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    border-left: 3px solid #FF5959;
+}
+
+
+.home-child p{
+    margin-top: 25px;
+}
+
+.home-child .btn{
+    margin-top: 25px;
+    display: inline-block;
+}
+
+/* ------ Mission Section ------ */
+
+
+.mission{
+    display: flex;
+    justify-content: center;
+}
+
+.mission-item{
+    padding: 30px;
+    border-radius: 25px;
+    width: 25%;
+}
+
+.mission-item p{
+    font-size: 16px;
+
+}
+
+.mission-item h3{
+    font-weight: 600;
+    font-size: 26px;
+    margin: 15px 0px;
+}
+
+.mission-item .mission-img{
+    width: 160px;
+    height: 165px;
+}
+
+.mission-item-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-right: 30px;
+}
+
+
+.mission-item-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.mission-item-3{
+    background-color: rgb(255, 244, 214);
+    margin-left: 30px;
+}
+
+/* ------ Develop Section ------ */
+
+.develop-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 50px center;
+}
+
+.develop-image{
+    width: 25%;
+}
+
+.develop-detail{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.develop-detail h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.develop-detail p{
+    margin-bottom: 25px;
+}
+
+/* ------ Community Section ------ */
+
+.community-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: right 320px;
+    background-size: 15%;
+}
+
+.community-detail{
+    width: 50%;
+    margin-right: 50px  ;
+}
+.community-detail h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.community-detail p{
+    margin-bottom: 25px;
+}
+
+.community-image{
+    width: 25%;
+}
+
+/* ------ Skill Section ------ */
+
+
+.parent-skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+
+.skill-image{
+    width: 28%;
+    margin-right: 50px;
+}
+
+.skills{
+    width: 48%;
+}
+
+
+.skill-list{
+    width: 50%;
+}
+
+.skill-item{
+    margin: 25px 0px;
+}
+
+.skill-item p{
+    margin-bottom: 5px;
+}
+
+.skill-item li{
+    background-color: #EDF5F6;
+    border-radius: 5px;
+    overflow: hidden;
+ 
+}
+
+.skill-item li span{
+    background-color: #FFAD5A;
+    display: block;
+    height: 10px;
+}
+
+.html{
+    width: 90%;
+}
+
+.css{
+    width: 80%;
+}
+
+.bootstrap{
+    width: 70%;
+}
+
+.javascript{
+    width: 50%;
+}
+
+
+.social-links{
+    display: inline-block;
+    padding: 8px 5px;
+
+}
+
+.social-links a{
+    width: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+/* ------ Footer Section ------ */
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 60px 0px;
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-highlight{
+    color:#FF5959;
+}
+
+footer p{
+    font-size: 14px;
+    color: #f9f9f9;
+}
+
+footer p a{
+    color: #ff5959b6;
+}
